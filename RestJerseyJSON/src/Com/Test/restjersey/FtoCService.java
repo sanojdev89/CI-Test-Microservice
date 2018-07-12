@@ -1,7 +1,7 @@
 package Com.Test.restjersey;
  
 /**
- * @author Crunchify
+ * @author sanoj
  */
  
 import javax.ws.rs.GET;
@@ -25,7 +25,7 @@ public class FtoCService {
 		celsius = (fahrenheit - 32)*5/9; 
 		jsonObject.put("F Value", fahrenheit); 
 		jsonObject.put("C Value", celsius);
- 
+     
 		String result = "@Produces(\"application/json\") Output: \n\nF to C Converter Output: \n\n" + jsonObject;
 		return Response.status(200).entity(result).build();
 	  }
