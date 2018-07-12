@@ -1,7 +1,7 @@
 package Com.Test.restjersey;
  
 /**
- * @author sanoj
+ * @author sanojtest
  */
  
 import javax.ws.rs.GET;
